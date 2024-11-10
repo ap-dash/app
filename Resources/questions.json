@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following molecules has the strongest intermolecular forces?",
+        "options": ["CH4", "HF", "H2O", "CO2", "NH3"],
+        "answer": "HF"
+    },
+    {
+        "id": 2,
+        "question": "What is the oxidation state of sulfur in H2SO4?",
+        "options": ["+6", "+4", "0", "-2", "+2"],
+        "answer": "+6"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following compounds has the highest boiling point?",
+        "options": ["HCl", "H2O", "CH4", "NH3", "CO2"],
+        "answer": "H2O"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following statements about an endothermic reaction is true?",
+        "options": ["The reaction releases heat.", "The enthalpy change is negative.", "Energy is absorbed by the system.", "The temperature of the surroundings increases.", "The reaction is spontaneous."],
+        "answer": "Energy is absorbed by the system."
+    },
+    {
+        "id": 5,
+        "question": "Which of the following is a strong electrolyte?",
+        "options": ["NaCl", "C6H12O6", "H2O", "NH3", "CH3OH"],
+        "answer": "NaCl"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following elements has the smallest atomic radius?",
+        "options": ["Na", "Mg", "Al", "Si", "P"],
+        "answer": "P"
+    },
+    {
+        "id": 7,
+        "question": "What is the pH of a 0.001 M HCl solution?",
+        "options": ["3", "2", "1", "4", "5"],
+        "answer": "3"
+    },
+    {
+        "id": 8,
+        "question": "What is the molarity of a solution made by dissolving 10.0 g of NaCl in 0.500 L of water? (Molar mass of NaCl = 58.44 g/mol)",
+        "options": ["0.342 M", "0.171 M", "0.500 M", "1.0 M", "0.020 M"],
+        "answer": "0.342 M"
+    },
+    {
+        "id": 9,
+        "question": "Which of the following statements is true for the reaction 2H2 + O2 → 2H2O?",
+        "options": ["It is a synthesis reaction.", "It is a decomposition reaction.", "It is a redox reaction.", "It is a combustion reaction.", "It is an acid-base reaction."],
+        "answer": "It is a redox reaction."
+    },
+    {
+        "id": 10,
+        "question": "Which of the following substances is an example of a buffer solution?",
+        "options": ["NaOH", "HCl", "NaCl", "CH3COOH/CH3COONa", "H2SO4"],
+        "answer": "CH3COOH/CH3COONa"
+    }
+]

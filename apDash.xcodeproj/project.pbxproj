@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430BD6BF2CE1493B001922A7 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BD6BE2CE1493B001922A7 /* question.swift */; };
+		430BD6C42CE15200001922A7 /* stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BD6C32CE15200001922A7 /* stats.swift */; };
 		431C1DA72CE0731C00E065FD /* apDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C1DA62CE0731C00E065FD /* apDashApp.swift */; };
 		431C1DA92CE0731C00E065FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C1DA82CE0731C00E065FD /* ContentView.swift */; };
 		431C1DAB2CE0732000E065FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431C1DAA2CE0732000E065FD /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		431C1DB82CE0732000E065FD /* apDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C1DB72CE0732000E065FD /* apDashTests.swift */; };
 		431C1DC22CE0732000E065FD /* apDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C1DC12CE0732000E065FD /* apDashUITests.swift */; };
 		431C1DC42CE0732000E065FD /* apDashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C1DC32CE0732000E065FD /* apDashUITestsLaunchTests.swift */; };
+		431C1DD22CE0734100E065FD /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 431C1DD12CE0734100E065FD /* questions.json */; };
+		433B55EE2CE14236007BBED2 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B55ED2CE14236007BBED2 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430BD6BE2CE1493B001922A7 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = question.swift; path = ../../../Downloads/question.swift; sourceTree = "<group>"; };
+		430BD6C32CE15200001922A7 /* stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stats.swift; sourceTree = "<group>"; };
 		431C1DA32CE0731C00E065FD /* apDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		431C1DA62CE0731C00E065FD /* apDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apDashApp.swift; sourceTree = "<group>"; };
 		431C1DA82CE0731C00E065FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,8 @@
 		431C1DBD2CE0732000E065FD /* apDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		431C1DC12CE0732000E065FD /* apDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apDashUITests.swift; sourceTree = "<group>"; };
 		431C1DC32CE0732000E065FD /* apDashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apDashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		431C1DD12CE0734100E065FD /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		433B55ED2CE14236007BBED2 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,8 @@
 		431C1D9A2CE0731C00E065FD = {
 			isa = PBXGroup;
 			children = (
+				433B55EC2CE14210007BBED2 /* Models */,
+				431C1DD02CE0733500E065FD /* Resources */,
 				431C1DA52CE0731C00E065FD /* apDash */,
 				431C1DB62CE0732000E065FD /* apDashTests */,
 				431C1DC02CE0732000E065FD /* apDashUITests */,
@@ -125,6 +135,24 @@
 				431C1DC32CE0732000E065FD /* apDashUITestsLaunchTests.swift */,
 			);
 			path = apDashUITests;
+			sourceTree = "<group>";
+		};
+		431C1DD02CE0733500E065FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				431C1DD12CE0734100E065FD /* questions.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		433B55EC2CE14210007BBED2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				433B55ED2CE14236007BBED2 /* data.swift */,
+				430BD6BE2CE1493B001922A7 /* question.swift */,
+				430BD6C32CE15200001922A7 /* stats.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431C1DD22CE0734100E065FD /* questions.json in Resources */,
 				431C1DAE2CE0732000E065FD /* Preview Assets.xcassets in Resources */,
 				431C1DAB2CE0732000E065FD /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433B55EE2CE14236007BBED2 /* data.swift in Sources */,
+				430BD6C42CE15200001922A7 /* stats.swift in Sources */,
+				430BD6BF2CE1493B001922A7 /* question.swift in Sources */,
 				431C1DA92CE0731C00E065FD /* ContentView.swift in Sources */,
 				431C1DA72CE0731C00E065FD /* apDashApp.swift in Sources */,
 			);
@@ -425,6 +457,7 @@
 				DEVELOPMENT_TEAM = 3U2QV4AX2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AP Dash";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +487,7 @@
 				DEVELOPMENT_TEAM = 3U2QV4AX2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AP Dash";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
